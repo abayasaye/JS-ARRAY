@@ -221,17 +221,30 @@
 // }
 // console.log(arrayNumsf([23,12,20,41,7,8],11))
 
-function arraySpal(arraySplice,arrayS){
-    for (i=0; i<arraySplice; i++){
-        if(arrayS==arraySplice[i]){
-            arraySplice.splice(i,1)
-            return arraySplice;
-        }
-        arraySplice.push(arrayS) 
-        return arraySplice;
-    }
-}
-console.log(arraySpal([24,4,12,33,11,6],24))
+// function arr(arraySp,arrayS) {
+//     for (var i=0; i<arraySp; i++) {
+//         if (arrayS==arraySp[i]) {
+//             arraySp.splice(arrayS);
+//             return  arraySp;
+//         }
+//         arraySp.push(arrayS);
+//         return arraySp;
+//     }
+// }
+// console.log(arr([24,4,12,33,11,6],24))
+
+// function numbersAA (numbersArrayy,num){
+// for (var i=0;i<numbersArrayy.length;i++ ){
+//     if(num>numbersArrayy[i]){
+    
+//     }
+//     numbersArrayy.push(num);
+
+
+// }
+// }
+// numbersAA([3,44,1,23,31],88)
+
 
 
 // function myArray(maxMinArray){
